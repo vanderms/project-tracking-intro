@@ -48,10 +48,10 @@ export const Navbar: React.FC = () => {
         ref={sidebarRef}
         className={`absolute w-full max-w-[19.4375rem] bg-white top-16 right-smcontainer 
           flex-col gap-6  items-center shadow p-6 ${isSidebarOpen ? "flex" : "hidden"}
-          lg:static lg:flex-row lg:flex lg:shadow-none lg:gap-10 lg:p-0 lg:bg-transparent
+          lg:static lg:flex-row lg:flex lg:shadow-none lg:gap-10 lg:p-0 lg:bg-transparent lg:max-w-max
         `}
       >
-        <ul className="flex flex-col gap-6 lg:flex-row lg:gap-10 ">
+        <ul className="flex flex-col gap-6 lg:flex-row lg:gap-10 "> 
           {LINKS.map((link) => (
             <li key={link.text}>
               <Link

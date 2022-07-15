@@ -1149,6 +1149,12 @@ html {
     width: 190.8333333%;
   }
 
+  .lg\:max-w-max {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+
   .lg\:grid-cols-\[\] {
     grid-template-columns: ;
   }
