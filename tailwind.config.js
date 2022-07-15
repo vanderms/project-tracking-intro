@@ -14,7 +14,7 @@ module.exports = {
       fontSize: {
         mhxl: [ '2.5rem', '1' ],
         lhxl: [ '4rem', '1' ],
-        mtxl: [ '1,125rem', '1.44' ],
+        mtxl: [ '1.125rem', '1.44' ],
       },
       spacing: {
         container: "0.5rem",

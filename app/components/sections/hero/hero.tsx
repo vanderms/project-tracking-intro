@@ -24,7 +24,7 @@ export const HeroSection: React.FC = () => {
           <h1 className="text-mhxl font-bold mt-4 max-w-[29.375rem] lg:text-lhxl ">
             POWERFUL INSIGHTS INTO YOUR TEAM
           </h1>
-          <p className="text-mtxl text-text max-w-[16.625rem] mt-4 lg:mt-8 ">
+          <p className="text-mtxl  text-text max-w-[16.625rem] mt-4 lg:mt-8 ">
             Project planning and time tracking for agile teams
           </p>
           <div className="mt-6 flex items-center gap-6 lg:mt-16 ">
