@@ -18,7 +18,9 @@ export default function Index() {
   return (
     <div className="max-w-[90rem] mx-auto">
       <Navbar />
-      <HeroSection/>
+      <main>
+        <HeroSection />
+      </main>
     </div>
   );
 }
