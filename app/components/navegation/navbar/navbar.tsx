@@ -40,7 +40,7 @@ export const Navbar: React.FC = () => {
 
   return (
     <nav className="mt-9 ctn relative z-50 flex justify-between items-center lg:mt-16">
-      <Link to="/">
+      <Link to="/" aria-label="homepage">
         <img src="/assets/logo.svg" alt="" className="w-6 h-6 lg:w-8 lg:h-8" />
       </Link>
 
