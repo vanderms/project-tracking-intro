@@ -8,10 +8,10 @@ export const meta: MetaFunction = () => ({
   "og:title": "Project tracking intro",
   "og:description":
     "My solution to the challenge Project tracking intro, by Frontend Mentor",
-  "og:image": "",
+  "og:image": "https://project-tracking-intro.pages.dev/assets/preview.jpg",
   "og:type": "website",
   "og:image:type": "image/jpeg",
-  "og:url": "",
+  "og:url": "https://project-tracking-intro.pages.dev/",
 });
 
 export default function Index() {
