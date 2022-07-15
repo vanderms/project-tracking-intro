@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
 import { Navbar } from "~/components/navegation/navbar/navbar";
+import { HeroSection } from "~/components/sections/hero/hero";
 
 export const meta: MetaFunction = () => ({
   title: "Project tracking intro",
@@ -17,6 +18,7 @@ export default function Index() {
   return (
     <div className="max-w-[90rem] mx-auto">
       <Navbar />
+      <HeroSection/>
     </div>
   );
 }
