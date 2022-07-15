@@ -15,6 +15,16 @@ module.exports = {
         mhxl: [ '2.5rem', '1' ],
         lhxl: [ '4rem', '1' ],
         mtxl: [ '1,125rem', '1.44' ],
+      },
+      spacing: {
+        container: "0.5rem",
+        smcontainer: "8.5333333%",
+        lgcontainer: "calc(50% - 34.6875rem)"
+      },
+      screens: {
+        sm: "23rem",
+        md: "42.5rem",
+        lg: "74rem"
       }
     },
   },

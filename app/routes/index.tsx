@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
+import { Navbar } from "~/components/navegation/navbar/navbar";
 
 export const meta: MetaFunction = () => ({
   title: "Project tracking intro",
@@ -13,7 +14,9 @@ export const meta: MetaFunction = () => ({
 });
 
 export default function Index() {
-  return <div className="max-w-[90rem] mx-auto">
-    
-  </div>;
+  return (
+    <div className="max-w-[90rem] mx-auto">
+      <Navbar />
+    </div>
+  );
 }

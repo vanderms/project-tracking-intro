@@ -7,3 +7,7 @@
     font-family: "Barlow Condensed", sans-serif;
   }
 }
+
+.ctn {
+  @apply px-container sm:px-smcontainer lg:px-lgcontainer;
+}
